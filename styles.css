@@ -1,0 +1,119 @@
+html {
+    font-size: 20px;
+    margin: 0;
+    background: #0c0207;
+}
+
+#main{
+    width: 1325px;
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 16px;
+    margin-top: 2em;
+}
+
+#first{
+    border-radius: 16px;
+    width: 1325px;
+    height: 500px;
+    background: linear-gradient(to bottom, #0b4c5f 0%, #04b4ae 52%, #0c0207 100%);
+    position: absolute;
+    z-index: -3;
+    top: 0;
+    margin-top: 2em;
+}
+
+#fifth{
+    background: url("https://res.cloudinary.com/pastelitos/image/upload/v1610526533/eva/edificiosOne_fsg7nx.svg");
+    height: 500px;
+    width: 1325px;
+    z-index: -2;
+    top: 6.5em;
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+    -webkit-animation: animar_fifth 120s linear infinite;
+    -ms-animation: animar_fifth 120s linear infinite;
+    -moz-animation: animar_fifth 120s linear infinite;
+    position: absolute;
+}
+
+/* Animation fifth */
+
+@keyframes animar_fifth {
+    from {background-position: 0 0;}
+    to {background-position: 100% 0;}
+}
+
+@-webkit-keyframes animar_fifth {
+    from {background-position: 0 0;}
+    to {background-position: 100% 0;}
+}
+
+@-ms-keyframes animar_fifth{
+    from {background-position: 0 0;}
+    to {background-position: 100% 0;}
+}
+
+@-moz-keyframes animar_fifth{
+    from {background-position: 0 0;}
+    to {background-position: 100% 0;}
+}
+
+#second {
+    width: 6em;
+    height: 6em;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -moz-box-shadow: 30px 10px 0 #f7f8e0;
+    -webkit-box-shadow: 30px 10px 0 #f7f8e0;
+    box-shadow: 30px 10px 0 #f7f8e0;
+    margin-top: 1em;
+    margin-left: 50%;
+    position: absolute;
+    z-index: -1;
+}
+
+#forth {
+    height: 23em;
+    width: 100%;
+    background: -moz-linear-gradient(top, #416663 0%, #0c0207 19%);
+    background: -webkit-linear-gradient(top, #416663 0%, #0c0207 19%);
+    background: linear-gradient(top, #416663 0%, #0c0207 19%);
+    bottom: 0px;
+}
+
+#third {
+    background: url('https://res.cloudinary.com/pastelitos/image/upload/v1610526571/eva/gatito_pushui.svg');
+    height: 297px;
+    width: 507.5px;
+    margin-top: 2em;
+    margin-left: 2em;
+    z-index: 1;
+    -webkit-animation: sp-animation 1.2s steps(16,end) infinite;
+    -moz-animation: sp-animation 1.2s steps(16,end) infinite;
+    -ms-animation: sp-animation 1.2s steps(16,end) infinite;
+    animation: sp-animation 1.2s steps(16,end) infinite;
+}
+
+@-webkit-keyframes sp-animation {
+    from {background-position: 0 0;}
+    to {background-position: -8120px 0;}
+}
+
+@-ms-keyframes sp-animation {
+    from {background-position: 0 0;}
+    to {background-position: -8120px 0;}
+}
+
+@-moz-keyframes sp-animation {
+    from {background-position: 0 0;}
+    to {background-position: -8120px 0;}
+}
+
+@keyframes sp-animation {
+    from {background-position: 0 0;}
+    to {background-position: -8120px 0;}
+}
+
